@@ -1,0 +1,114 @@
+* {
+}
+h1 {
+	color: black;
+	text-align: center;
+	
+	border-bottom: 5px solid black;
+}
+#head1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 15px;
+	height: 15px;
+	animation-duration: 3s;
+	position: relative;
+	animation-name: onesquare;
+	animation-iteration-count: infinite;
+}
+#head2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 15px;
+	height: 15px;
+	animation-duration: 3s;
+	position: relative;
+	animation-name: twosquare;
+	animation-iteration-count: infinite;
+}
+@keyframes onesquare {	
+	0%	{background-color:red; left:0px;}
+	50% {background-color:green; left:75%;}
+	100% {background-color:blue; left:0px;}
+}
+@keyframes twosquare {	
+	0%	{background-color:red; left:75%;}
+	50% {background-color:green; left:0px;}
+	100% {background-color:blue; left:75%;}
+}
+nav {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px solid black;
+	border-top: 2px solid white;
+}
+ul > li {
+	margin-right: 10%;
+	margin-left: 10%;
+	display: inline;
+}
+li > a {
+	text-decoration: none;
+	color: grey;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+}li > a:hover {
+	text-decoration: none;
+	color: grey;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+}li > a:visited {
+	text-decoration: none;
+	color: grey;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+}li > a:active {
+	text-decoration: none;
+	background: grey;
+	color: darkgrey;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+}
+#act {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+}
+footer {
+	bottom: 0;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	border: 2px solid black;
+	border-bottom: 2px solid white;
+}
+.index {
+	width: 256px;
+}
+.page2 {
+	width: 512px;
+	float: right;
+	margin-right: 5%;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
